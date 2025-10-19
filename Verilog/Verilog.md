@@ -143,3 +143,9 @@ module mux4_1_always (
 
 endmodule
 ```
+
+
+**verilog 定义数组语法**
+索引允许递增与递减：
+* DataType [DataTop :DataBottom] ArraryName [ArrayBottom:ArrayTop];
+* DataType [DataTop :DataBottom] ArraryName [ArrayTop:ArrayBottom];
